@@ -50,6 +50,14 @@ client.on("message", (__, tags, message, self) => {
   if (self) return;
 
   if (message.toLowerCase().includes(keyword.toLowerCase())) {
+    const now = Date.now();
+    while (
+      messageTracker.length > 0 &&
+      now - messageTracker[0].time > spamTimeWindow
+    ) {
+      messageTracker.shift();
+    }
+
     messageTracker.push({ time: Date.now(), user: tags["display-name"] });
   }
 
