@@ -2,7 +2,11 @@
 
 ## Overview
 
-this script monitors a twitch chat for occurrences of a specified keyword. if the keyword is detected being spammed (repeated multiple times within a specific time window), the script logs a spam warning and plays a sound.
+this simple script monitors a twitch chat for occurrences of a specified keyword. if the keyword is detected being spammed (repeated multiple times within a specific time window), the script logs a spam warning and plays a sound.
+
+## Use case
+
+for example: i use this while learning, to be notified when POE keys are giveawayed by a channel
 
 ## Features
 
