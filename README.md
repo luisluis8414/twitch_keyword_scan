@@ -58,7 +58,7 @@ node index.js --channel <channel_name> --keyword <keyword> --spamThreshold <thre
 ### example:
 
 ```bash
-node index.js --channel metashi12 --keyword '!key' --spamThreshold 5 --timeWindow 5000
+node index.js --channel streamer123 --keyword '!key' --spamThreshold 5 --timeWindow 5000
 ```
 
 ## Sound Alert
@@ -88,7 +88,3 @@ if you encounter issues:
    ```bash
    sudo apt install mpg123  # linux
    ```
-
-## License
-
-this project is licensed under the mit license.
